@@ -11,15 +11,15 @@ namespace CincyCarsAndCoffee.Models
     {
         public North() { }
         public int Id { get; set; }
-        [StringLength(40), Required]
+        [StringLength(50), Required]
         public string Name { get; set; }
-        [StringLength(40), Required]
+        [StringLength(50), Required]
         public string Organization { get; set; }
-        [StringLength(200), Required]
-        public string Location { get; set; }
+        [StringLength(40), Required]
+        public string Date { get; set; }
         [StringLength(40), Required]
         public string Time { get; set; }
-        [StringLength(200)]
+        [StringLength(255)]
         public string Link { get; set; }
     }
 }

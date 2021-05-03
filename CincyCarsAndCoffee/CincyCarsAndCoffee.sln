@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CincyCarsAndCoffee", "CincyCarsAndCoffee\CincyCarsAndCoffee.csproj", "{3BC43D13-306B-440D-A254-CD98F6D09526}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CincyCarsAndCoffee", "CincyCarsAndCoffee\CincyCarsAndCoffee.csproj", "{3539190F-A0B8-4C42-AF23-455B5BE09B75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3BC43D13-306B-440D-A254-CD98F6D09526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BC43D13-306B-440D-A254-CD98F6D09526}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BC43D13-306B-440D-A254-CD98F6D09526}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BC43D13-306B-440D-A254-CD98F6D09526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3539190F-A0B8-4C42-AF23-455B5BE09B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3539190F-A0B8-4C42-AF23-455B5BE09B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3539190F-A0B8-4C42-AF23-455B5BE09B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3539190F-A0B8-4C42-AF23-455B5BE09B75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {860810A0-F730-4288-9272-D42347440824}
+		SolutionGuid = {1CFE2C1A-317A-444F-BCD2-BB11B5CB149B}
 	EndGlobalSection
 EndGlobal

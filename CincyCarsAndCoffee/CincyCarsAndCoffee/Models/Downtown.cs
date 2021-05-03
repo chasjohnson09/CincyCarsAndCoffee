@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CincyCarsAndCoffee.Models
 {
-    class East
+    class Downtown
     {
-        public East() { }
+        public Downtown() { }
         public int Id { get; set; }
         [StringLength(50), Required]
         public string Name { get; set; }
@@ -21,5 +21,6 @@ namespace CincyCarsAndCoffee.Models
         public string Time { get; set; }
         [StringLength(255)]
         public string Link { get; set; }
+
     }
 }
