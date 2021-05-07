@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace CincyCarsAndCoffee
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
@@ -21,5 +22,6 @@ namespace CincyCarsAndCoffee
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }
