@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -15,9 +16,9 @@ namespace CCaC.Models
         [StringLength(50), Required]
         public string Organization { get; set; }
         [StringLength(40), Required]
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
         [StringLength(40), Required]
-        public string Time { get; set; }
+        public TimeSpan Time { get; set; }
         [StringLength(255)]
         public string Link { get; set; }
     }

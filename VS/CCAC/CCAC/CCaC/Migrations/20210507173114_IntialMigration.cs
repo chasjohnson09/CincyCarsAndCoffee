@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CCaC.Migrations
 {
@@ -48,8 +49,8 @@ namespace CCaC.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(maxLength: 50, nullable: false),
                     Organization = table.Column<string>(maxLength: 50, nullable: false),
-                    Date = table.Column<string>(maxLength: 40, nullable: false),
-                    Time = table.Column<string>(maxLength: 40, nullable: false),
+                    Date = table.Column<DateTime>(maxLength: 40, nullable: false),
+                    Time = table.Column<TimeSpan>(maxLength: 40, nullable: false),
                     Link = table.Column<string>(maxLength: 255, nullable: true)
                 },
                 constraints: table =>
