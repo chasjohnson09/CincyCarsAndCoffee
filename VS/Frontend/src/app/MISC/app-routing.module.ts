@@ -1,15 +1,14 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { EastListComponent } from './east/east-list/east-list.component';
-import { EastDetailComponent } from './east/east-detail/east-detail.component';
-import { WestListComponent } from './west/west-list/west-list.component';
-import { WestDetailComponent } from './west/west-detail/west-detail.component';
-import { NorthListComponent } from './north/north-list/north-list.component';
-import { NorthDetailComponent } from './north/north-detail/north-detail.component';
-import { SouthListComponent } from './south/south-list/south-list.component';
-import { SouthDetailComponent } from './south/south-detail/south-detail.component';
+import { HomeComponent } from '../home/home.component';
+import { EastListComponent } from '../east/east-list/east-list.component';
+import { EastDetailComponent } from '../east/east-detail/east-detail.component';
+import { WestListComponent } from '../west/west-list/west-list.component';
+import { WestDetailComponent } from '../west/west-detail/west-detail.component';
+import { NorthListComponent } from '../north/north-list/north-list.component';
+import { NorthDetailComponent } from '../north/north-detail/north-detail.component';
+import { SouthListComponent } from '../south/south-list/south-list.component';
+import { SouthDetailComponent } from '../south/south-detail/south-detail.component';
 
 
 
