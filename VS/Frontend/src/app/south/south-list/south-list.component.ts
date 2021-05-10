@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { South } from '../south.class';
+import { SouthService } from '../south.service';
 
 @Component({
   selector: 'app-south-list',
@@ -7,9 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SouthListComponent implements OnInit {
 
-  constructor() { }
+  souths: South[] = [];
+
+  constructor(
+    private sthsvc: SouthService
+  ) { }
 
   ngOnInit(): void {
+    this.sthsvc.list().subscribe(
+      res=>{
+        console.log("South Events:", res);
+        this.souths = res as South[];
+      },
+      err => {
+        console.error(err);
+      }
+    );
   }
 
 }

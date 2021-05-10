@@ -1,2 +1,38 @@
 <main-menu></main-menu>
-<p>west-detail works!</p>
+<div>
+    <div>
+        <span><h3>Event Detail</h3></span>
+    </div>
+    <table class="table table-sm" *ngIf="west">
+        <tr>
+            <th>Id</th>
+            <td>
+                <input [(ngModel)]="west.id" type="number" >
+            </td>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <td>
+                <input [(ngModel)]="west.name" type="text" disabled>
+            </td>
+        </tr>
+        <tr>
+            <th>Organization</th>
+            <td>
+                <input [(ngModel)]="west.organization" type="text" disabled>
+            </td>
+        </tr>
+        <tr>
+            <th>DateTime</th>
+            <td>
+                <input [(ngModel)]="west.dateTime" type="datetime" >
+            </td>
+        </tr>
+        <tr>
+            <th>Link</th>
+            <td>
+                <input [(ngModel)]="west.link" type="text" disabled>
+            </td>
+        </tr>
+    </table>
+</div>

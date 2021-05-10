@@ -1,3 +1,21 @@
 <main-menu></main-menu>
-
-<p>east-list works!</p>
+<div>
+    <span><h3>East Side Cars and Coffees</h3></span>
+</div>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Organization</th>
+        <th>DateTime</th>
+        <th>Link</th>
+    </tr>
+    <tr *ngFor="let east of easts">
+        <td>{{east.id}}</td>
+        <td>{{east.name}}</td>
+        <td>{{east.organization}}</td>
+        <td>{{east.dateTime}}</td>
+        <td>{{east.link}}</td>
+        <a routerLink="/east/detail/{{east.id}}">Details</a>
+    </tr>
+</table>

@@ -19,7 +19,7 @@ export class NorthListComponent implements OnInit {
   ngOnInit(): void {
     this.nrthsvc.list().subscribe(
       res=>{
-        console.log("Norths:", res);
+        console.log("North Events:", res);
         this.norths = res as North[];
       },
       err => {

@@ -1,2 +1,21 @@
 <main-menu></main-menu>
-<p>south-list works!</p>
+<div>
+    <span><h3>South Side Cars and Coffees</h3></span>
+</div>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Organization</th>
+        <th>DateTime</th>
+        <th>Link</th>
+    </tr>
+    <tr *ngFor="let south of souths">
+        <td>{{south.id}}</td>
+        <td>{{south.name}}</td>
+        <td>{{south.organization}}</td>
+        <td>{{south.dateTime}}</td>
+        <td>{{south.link}}</td>
+        <a routerLink="/south/detail/{{south.id}}">Details</a>
+    </tr>
+</table>

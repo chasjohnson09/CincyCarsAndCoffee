@@ -17,4 +17,7 @@ export class NorthService {
     list(): Observable<North[]>{
         return this.http.get(this.baseurl) as Observable<North[]>
     }
+    get(id:number): Observable<North> {
+        return this.http.get(`${this.baseurl}/${id}`) as Observable<North>
+    }
 }

@@ -1,2 +1,21 @@
 <main-menu></main-menu>
-<p>west-list works!</p>
+<div>
+    <span><h3>West Side Cars and Coffees</h3></span>
+</div>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Organization</th>
+        <th>DateTime</th>
+        <th>Link</th>
+    </tr>
+    <tr *ngFor="let west of wests">
+        <td>{{west.id}}</td>
+        <td>{{west.name}}</td>
+        <td>{{west.organization}}</td>
+        <td>{{west.dateTime}}</td>
+        <td>{{west.link}}</td>
+        <a routerLink="/west/detail/{{west.id}}">Details</a>
+    </tr>
+</table>

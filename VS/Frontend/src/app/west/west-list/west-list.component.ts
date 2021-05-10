@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { West } from '../west.class';
+import { WestService } from '../west.service';
 
 @Component({
   selector: 'app-west-list',
@@ -7,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WestListComponent implements OnInit {
 
-  constructor() { }
+  wests: West[] = [];
+  searchCriteria: string ='';
+
+  constructor(
+    private wstsvc: WestService
+  ) { }
 
   ngOnInit(): void {
+    this.wstsvc.list().subscribe(
+      res=>{
+        console.log("West Events:", res);
+        this.wests = res as West[];
+      },
+      err => {
+        console.error(err);
+      }
+    );
   }
 
 }
