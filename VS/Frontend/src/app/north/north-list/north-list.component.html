@@ -1,2 +1,21 @@
 <main-menu></main-menu>
-<p>north-list works!</p>
+<div>
+    <span><h3>North Side Cars and Coffees</h3></span>
+</div>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Organization</th>
+        <th>DateTime</th>
+        <th>Link</th>
+    </tr>
+    <tr *ngFor="let north of norths">
+        <td>{{north.id}}</td>
+        <td>{{north.name}}</td>
+        <td>{{north.organization}}</td>
+        <td>{{north.dateTime}}</td>
+        <td>{{north.link}}</td>
+
+    </tr>
+</table>

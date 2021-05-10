@@ -13,13 +13,10 @@ namespace CCaC.Data
             : base(options)
         {
         }
-        public DbSet<CCaC.Models.North> North { get; set; }
-        public DbSet<CCaC.Models.North> East { get; set; }
-        public DbSet<CCaC.Models.North> South { get; set; }
-        public DbSet<CCaC.Models.North> West { get; set; }
+        public DbSet<CCaC.Models.North> North2 { get; set; }
+        public DbSet<CCaC.Models.East> East { get; set; }
+        public DbSet<CCaC.Models.South> South { get; set; }
+        public DbSet<CCaC.Models.West> West { get; set; }
         public DbSet<CCaC.Models.Downtown> Downtown { get; set; }
-        public DbSet<CCaC.Models.East> East_1 { get; set; }
-        public DbSet<CCaC.Models.South> South_1 { get; set; }
-        public DbSet<CCaC.Models.West> West_1 { get; set; }
     }
 }

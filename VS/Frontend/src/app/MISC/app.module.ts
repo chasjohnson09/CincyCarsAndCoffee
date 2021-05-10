@@ -13,6 +13,7 @@ import { WestListComponent } from '../west/west-list/west-list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from '../home/home.component';
 import { MenuComponent } from '../menu/menu.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,11 +27,12 @@ import { MenuComponent } from '../menu/menu.component';
     EastListComponent,
     WestListComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

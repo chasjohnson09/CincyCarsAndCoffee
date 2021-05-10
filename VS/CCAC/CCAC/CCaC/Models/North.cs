@@ -17,8 +17,6 @@ namespace CCaC.Models
         public string Organization { get; set; }
         [StringLength(40), Required]
         public DateTime Date { get; set; }
-        [StringLength(40), Required]
-        public TimeSpan Time { get; set; }
         [StringLength(255)]
         public string Link { get; set; }
     }
