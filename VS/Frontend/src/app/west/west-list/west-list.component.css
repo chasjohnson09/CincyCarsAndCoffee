@@ -3,3 +3,6 @@ table {width: 100%;}
 div2 {
     display: inline-block;
 }
+tr{
+    font-family: 'Courier New', Courier, monospace;
+}
