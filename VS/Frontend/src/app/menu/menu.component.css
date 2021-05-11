@@ -1,5 +1,5 @@
 nav {
-    background-color: blue;
+    background-color: black;
 }
 ul {
     margin: 0;
@@ -10,10 +10,10 @@ li {
 }
 a {
     text-decoration: none;
-    color: orangered;
+    color: white;
     padding: 0 10px;
 }
 a:hover {
-    color: blue;
-    background-color: orangered;
+    color: white;
+    background-color: black;
 }
