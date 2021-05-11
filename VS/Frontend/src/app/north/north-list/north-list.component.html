@@ -21,3 +21,18 @@
         <a routerLink="/north/detail/{{north.id}}">Details</a>
     </tr>
 </table>
+<span>
+    <p> </p>
+</span>
+
+<body>
+    <span *ngFor="let north of norths">
+        <p>{{north.id}}</p>
+        <p>{{north.name}}</p>
+        <p>{{north.organization}}</p>
+        <p>{{north.dateTime}}</p>
+        <p>{{north.link}}</p>
+        <a routerLink="/north/detail/{{north.id}}">Details</a>
+    </span>
+
+</body>
