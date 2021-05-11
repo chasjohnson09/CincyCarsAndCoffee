@@ -10,7 +10,7 @@ import { WestService } from '../west.service';
 export class WestListComponent implements OnInit {
 
   wests: West[] = [];
-  searchCriteria: string ='';
+  searchCriteria: string = '';
 
   constructor(
     private wstsvc: WestService
@@ -18,7 +18,7 @@ export class WestListComponent implements OnInit {
 
   ngOnInit(): void {
     this.wstsvc.list().subscribe(
-      res=>{
+      res => {
         console.log("West Events:", res);
         this.wests = res as West[];
       },

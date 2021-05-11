@@ -1,13 +1,15 @@
 <main-menu></main-menu>
 <div>
     <div>
-        <span><h3>Event Detail</h3></span>
+        <span>
+            <h3>Event Detail</h3>
+        </span>
     </div>
     <table class="table table-sm" *ngIf="north">
         <tr>
             <th>Id</th>
             <td>
-                <input [(ngModel)]="north.id" type="number" >
+                <input [(ngModel)]="north.id" type="number">
             </td>
         </tr>
         <tr>
@@ -25,7 +27,7 @@
         <tr>
             <th>DateTime</th>
             <td>
-                <input [(ngModel)]="north.dateTime" type="datetime" >
+                <input [(ngModel)]="north.dateTime" type="datetime">
             </td>
         </tr>
         <tr>

@@ -10,7 +10,7 @@ import { EastService } from '../east.service';
 export class EastListComponent implements OnInit {
 
   easts: East[] = [];
-  searchCriteria: string ='';
+  searchCriteria: string = '';
 
   constructor(
     private estsvc: EastService
@@ -18,7 +18,7 @@ export class EastListComponent implements OnInit {
 
   ngOnInit(): void {
     this.estsvc.list().subscribe(
-      res=>{
+      res => {
         console.log("East Events:", res);
         this.easts = res as East[];
       },

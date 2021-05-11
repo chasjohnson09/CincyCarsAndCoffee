@@ -10,7 +10,7 @@ import { NorthService } from '../north.service';
 export class NorthListComponent implements OnInit {
 
   norths: North[] = [];
-  searchCriteria: string ='';
+  searchCriteria: string = '';
 
   constructor(
     private nrthsvc: NorthService
@@ -18,7 +18,7 @@ export class NorthListComponent implements OnInit {
 
   ngOnInit(): void {
     this.nrthsvc.list().subscribe(
-      res=>{
+      res => {
         console.log("North Events:", res);
         this.norths = res as North[];
       },

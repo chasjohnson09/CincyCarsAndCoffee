@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
 import { North } from "./north.class";
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 
 @Injectable({
     providedIn: 'root'
@@ -9,15 +9,15 @@ import {HttpClient} from "@angular/common/http";
 export class NorthService {
     baseurl: string = 'http://localhost:17445/api/Norths'
 
-    constructor (
+    constructor(
         private http: HttpClient,
 
-    ) {}
+    ) { }
 
-    list(): Observable<North[]>{
+    list(): Observable<North[]> {
         return this.http.get(this.baseurl) as Observable<North[]>
     }
-    get(id:number): Observable<North> {
+    get(id: number): Observable<North> {
         return this.http.get(`${this.baseurl}/${id}`) as Observable<North>
     }
 }

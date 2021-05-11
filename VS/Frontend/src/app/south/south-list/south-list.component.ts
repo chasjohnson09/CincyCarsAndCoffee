@@ -17,7 +17,7 @@ export class SouthListComponent implements OnInit {
 
   ngOnInit(): void {
     this.sthsvc.list().subscribe(
-      res=>{
+      res => {
         console.log("South Events:", res);
         this.souths = res as South[];
       },

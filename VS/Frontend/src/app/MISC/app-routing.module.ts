@@ -13,22 +13,22 @@ import { SouthDetailComponent } from '../south/south-detail/south-detail.compone
 
 
 const routes: Routes = [
-  {path: '', redirectTo:'home',pathMatch:'full'},
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
 
-  {path:'home', component: HomeComponent},
+  { path: 'home', component: HomeComponent },
 
-  {path: 'east/list', component: EastListComponent},
-  {path: 'east/detail/:id', component: EastDetailComponent},
-  {path: 'west/list', component: WestListComponent},
-  {path: 'west/detail/:id', component: WestDetailComponent},
-  {path: 'north/list', component: NorthListComponent},
-  {path: 'north/detail/:id', component: NorthDetailComponent},
-  {path: 'south/list', component: SouthListComponent},
-  {path: 'south/detail/:id', component: SouthDetailComponent},
-  
+  { path: 'east/list', component: EastListComponent },
+  { path: 'east/detail/:id', component: EastDetailComponent },
+  { path: 'west/list', component: WestListComponent },
+  { path: 'west/detail/:id', component: WestDetailComponent },
+  { path: 'north/list', component: NorthListComponent },
+  { path: 'north/detail/:id', component: NorthDetailComponent },
+  { path: 'south/list', component: SouthListComponent },
+  { path: 'south/detail/:id', component: SouthDetailComponent },
 
 
-  {path:'**', component: HomeComponent}
+
+  { path: '**', component: HomeComponent }
 ];
 
 @NgModule({

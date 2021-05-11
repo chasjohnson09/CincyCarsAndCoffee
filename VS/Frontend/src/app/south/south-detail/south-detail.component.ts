@@ -9,7 +9,7 @@ import { SouthService } from '../south.service';
   styleUrls: ['./south-detail.component.css']
 })
 export class SouthDetailComponent implements OnInit {
-  
+
   south: South = null;
   id: number = 0;
 
