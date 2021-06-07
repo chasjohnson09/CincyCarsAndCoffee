@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Newrepo\\CincyCarsAndCoffee\\VS\\CCAC\\CCAC\\CCaC\\CCaC.csproj": {}
+    "C:\\Newrepo\\CincyCarsAndCoffee\\VS\\CCAC\\CCaC\\CCaC\\CCaC.csproj": {}
   },
   "projects": {
-    "C:\\Newrepo\\CincyCarsAndCoffee\\VS\\CCAC\\CCAC\\CCaC\\CCaC.csproj": {
+    "C:\\Newrepo\\CincyCarsAndCoffee\\VS\\CCAC\\CCaC\\CCaC\\CCaC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Newrepo\\CincyCarsAndCoffee\\VS\\CCAC\\CCAC\\CCaC\\CCaC.csproj",
+        "projectUniqueName": "C:\\Newrepo\\CincyCarsAndCoffee\\VS\\CCAC\\CCaC\\CCaC\\CCaC.csproj",
         "projectName": "CCaC",
-        "projectPath": "C:\\Newrepo\\CincyCarsAndCoffee\\VS\\CCAC\\CCAC\\CCaC\\CCaC.csproj",
+        "projectPath": "C:\\Newrepo\\CincyCarsAndCoffee\\VS\\CCAC\\CCaC\\CCaC\\CCaC.csproj",
         "packagesPath": "C:\\Users\\chasj\\.nuget\\packages\\",
-        "outputPath": "C:\\Newrepo\\CincyCarsAndCoffee\\VS\\CCAC\\CCAC\\CCaC\\obj\\",
+        "outputPath": "C:\\Newrepo\\CincyCarsAndCoffee\\VS\\CCAC\\CCaC\\CCaC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chasj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
