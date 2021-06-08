@@ -10,14 +10,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CCaC.Migrations
 {
     [DbContext(typeof(CCaCDbContext))]
-    [Migration("20210507173114_IntialMigration")]
-    partial class IntialMigration
+    [Migration("20210608190154_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.13")
+                .HasAnnotation("ProductVersion", "3.1.15")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -90,7 +90,7 @@ namespace CCaC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("East_1");
+                    b.ToTable("East");
                 });
 
             modelBuilder.Entity("CCaC.Models.North", b =>
@@ -118,13 +118,9 @@ namespace CCaC.Migrations
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
-                    b.Property<TimeSpan>("Time")
-                        .HasColumnType("time")
-                        .HasMaxLength(40);
-
                     b.HasKey("Id");
 
-                    b.ToTable("North");
+                    b.ToTable("North2");
                 });
 
             modelBuilder.Entity("CCaC.Models.South", b =>
@@ -160,7 +156,7 @@ namespace CCaC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("South_1");
+                    b.ToTable("South");
                 });
 
             modelBuilder.Entity("CCaC.Models.West", b =>
@@ -196,7 +192,7 @@ namespace CCaC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("West_1");
+                    b.ToTable("West");
                 });
 #pragma warning restore 612, 618
         }

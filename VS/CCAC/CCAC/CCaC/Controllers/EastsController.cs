@@ -23,16 +23,16 @@ namespace CCaC.Controllers
 
         // GET: api/Easts
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<East>>> GetEast_1()
+        public async Task<ActionResult<IEnumerable<East>>> GetEast()
         {
-            return await _context.East_1.ToListAsync();
+            return await _context.East.ToListAsync();
         }
 
         // GET: api/Easts/5
         [HttpGet("{id}")]
         public async Task<ActionResult<East>> GetEast(int id)
         {
-            var east = await _context.East_1.FindAsync(id);
+            var east = await _context.East.FindAsync(id);
 
             if (east == null)
             {
@@ -80,7 +80,7 @@ namespace CCaC.Controllers
         [HttpPost]
         public async Task<ActionResult<East>> PostEast(East east)
         {
-            _context.East_1.Add(east);
+            _context.East.Add(east);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetEast", new { id = east.Id }, east);
@@ -90,13 +90,13 @@ namespace CCaC.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<East>> DeleteEast(int id)
         {
-            var east = await _context.East_1.FindAsync(id);
+            var east = await _context.East.FindAsync(id);
             if (east == null)
             {
                 return NotFound();
             }
 
-            _context.East_1.Remove(east);
+            _context.East.Remove(east);
             await _context.SaveChangesAsync();
 
             return east;
@@ -104,7 +104,7 @@ namespace CCaC.Controllers
 
         private bool EastExists(int id)
         {
-            return _context.East_1.Any(e => e.Id == id);
+            return _context.East.Any(e => e.Id == id);
         }
     }
 }

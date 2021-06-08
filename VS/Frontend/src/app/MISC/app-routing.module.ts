@@ -9,6 +9,7 @@ import { NorthListComponent } from '../north/north-list/north-list.component';
 import { NorthDetailComponent } from '../north/north-detail/north-detail.component';
 import { SouthListComponent } from '../south/south-list/south-list.component';
 import { SouthDetailComponent } from '../south/south-detail/south-detail.component';
+import { TestingComponent } from '../testing.component';
 
 
 
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'north/detail/:id', component: NorthDetailComponent },
   { path: 'south/list', component: SouthListComponent },
   { path: 'south/detail/:id', component: SouthDetailComponent },
+  { path: 'testing', component: TestingComponent},
 
 
 

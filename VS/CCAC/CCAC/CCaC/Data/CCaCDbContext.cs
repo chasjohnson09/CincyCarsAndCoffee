@@ -13,7 +13,7 @@ namespace CCaC.Data
             : base(options)
         {
         }
-        public DbSet<CCaC.Models.North> North2 { get; set; }
+        public DbSet<CCaC.Models.North> North { get; set; }
         public DbSet<CCaC.Models.East> East { get; set; }
         public DbSet<CCaC.Models.South> South { get; set; }
         public DbSet<CCaC.Models.West> West { get; set; }

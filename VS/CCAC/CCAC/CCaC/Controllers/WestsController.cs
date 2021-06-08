@@ -25,14 +25,14 @@ namespace CCaC.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<West>>> GetWest_1()
         {
-            return await _context.West_1.ToListAsync();
+            return await _context.West.ToListAsync();
         }
 
         // GET: api/Wests/5
         [HttpGet("{id}")]
         public async Task<ActionResult<West>> GetWest(int id)
         {
-            var west = await _context.West_1.FindAsync(id);
+            var west = await _context.West.FindAsync(id);
 
             if (west == null)
             {
@@ -80,7 +80,7 @@ namespace CCaC.Controllers
         [HttpPost]
         public async Task<ActionResult<West>> PostWest(West west)
         {
-            _context.West_1.Add(west);
+            _context.West.Add(west);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetWest", new { id = west.Id }, west);
@@ -90,13 +90,13 @@ namespace CCaC.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<West>> DeleteWest(int id)
         {
-            var west = await _context.West_1.FindAsync(id);
+            var west = await _context.West.FindAsync(id);
             if (west == null)
             {
                 return NotFound();
             }
 
-            _context.West_1.Remove(west);
+            _context.West.Remove(west);
             await _context.SaveChangesAsync();
 
             return west;
@@ -104,7 +104,7 @@ namespace CCaC.Controllers
 
         private bool WestExists(int id)
         {
-            return _context.West_1.Any(e => e.Id == id);
+            return _context.West.Any(e => e.Id == id);
         }
     }
 }

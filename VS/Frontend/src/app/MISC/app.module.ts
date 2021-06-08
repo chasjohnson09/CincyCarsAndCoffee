@@ -16,7 +16,7 @@ import { MenuComponent } from '../menu/menu.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TestingComponent } from '../testing';
+import { TestingComponent } from '../testing.component';
 
 @NgModule({
   declarations: [

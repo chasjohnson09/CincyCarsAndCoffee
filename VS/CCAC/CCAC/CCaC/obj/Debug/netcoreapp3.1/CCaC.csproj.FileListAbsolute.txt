@@ -113,7 +113,6 @@ C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\bin\Debug\netcoreapp3.1\runtimes
 C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\obj\Debug\netcoreapp3.1\CCaC.csprojAssemblyReference.cache
 C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\obj\Debug\netcoreapp3.1\CCaC.AssemblyInfoInputs.cache
 C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\obj\Debug\netcoreapp3.1\CCaC.AssemblyInfo.cs
 C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\obj\Debug\netcoreapp3.1\CCaC.csproj.CoreCompileInputs.cache
@@ -131,3 +130,4 @@ C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\bin\Debug\netcoreapp3.1\Microsof
 C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCaC\CCaC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Newrepo\CincyCarsAndCoffee\VS\CCAC\CCAC\CCaC\obj\Debug\netcoreapp3.1\CCaC.csproj.AssemblyReference.cache

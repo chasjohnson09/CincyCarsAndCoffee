@@ -23,16 +23,16 @@ namespace CCaC.Controllers
 
         // GET: api/Souths
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<South>>> GetSouth_1()
+        public async Task<ActionResult<IEnumerable<South>>> GetSouth()
         {
-            return await _context.South_1.ToListAsync();
+            return await _context.South.ToListAsync();
         }
 
         // GET: api/Souths/5
         [HttpGet("{id}")]
         public async Task<ActionResult<South>> GetSouth(int id)
         {
-            var south = await _context.South_1.FindAsync(id);
+            var south = await _context.South.FindAsync(id);
 
             if (south == null)
             {
@@ -80,7 +80,7 @@ namespace CCaC.Controllers
         [HttpPost]
         public async Task<ActionResult<South>> PostSouth(South south)
         {
-            _context.South_1.Add(south);
+            _context.South.Add(south);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetSouth", new { id = south.Id }, south);
@@ -90,13 +90,13 @@ namespace CCaC.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<South>> DeleteSouth(int id)
         {
-            var south = await _context.South_1.FindAsync(id);
+            var south = await _context.South.FindAsync(id);
             if (south == null)
             {
                 return NotFound();
             }
 
-            _context.South_1.Remove(south);
+            _context.South.Remove(south);
             await _context.SaveChangesAsync();
 
             return south;
@@ -104,7 +104,7 @@ namespace CCaC.Controllers
 
         private bool SouthExists(int id)
         {
-            return _context.South_1.Any(e => e.Id == id);
+            return _context.South.Any(e => e.Id == id);
         }
     }
 }

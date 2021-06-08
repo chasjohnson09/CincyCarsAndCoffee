@@ -30,7 +30,7 @@ namespace CCaC
             services.AddControllers();
 
             services.AddDbContext<CCaCDbContext>(options =>
-        options.UseSqlServer(Configuration.GetConnectionString("CincyCarsAndCoffee")));
+        options.UseSqlServer(Configuration.GetConnectionString("CCACDb")));
 
             services.AddCors();
         }
