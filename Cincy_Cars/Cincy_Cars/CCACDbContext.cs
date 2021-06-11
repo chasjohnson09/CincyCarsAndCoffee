@@ -13,7 +13,7 @@ namespace Cincy_Cars
         {
         }
 
-        public DbSet<Cincy_Cars.Models.Downtown> Dowtown { get; set; }
+        public DbSet<Cincy_Cars.Models.Downtown> Downtown { get; set; }
         public DbSet<Cincy_Cars.Models.North> North { get; set; }
         public DbSet<Cincy_Cars.Models.South> South { get; set; }
         public DbSet<Cincy_Cars.Models.East> East { get; set; }
