@@ -12,7 +12,8 @@ export class MenuComponent implements OnInit {
     { display: 'East', route: '/east/list' },
     { display: 'West', route: '/west/list' },
     { display: 'North', route: '/north/list' },
-    { display: 'South', route: '/south/list' }
+    { display: 'South', route: '/south/list' },
+    { display: 'Testing', route: '/testing'}
   ];
   constructor() { }
 
