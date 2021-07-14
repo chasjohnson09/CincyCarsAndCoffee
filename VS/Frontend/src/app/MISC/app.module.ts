@@ -17,6 +17,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestingComponent } from '../testing.component';
+import { NorthCreateComponent } from '../north/north-create/north-create.component';
+import { WestCreateComponent } from '../west/west-create/west-create.component';
+import { EastCreateComponent } from '../east/east-create/east-create.component';
+import { SouthCreateComponent } from '../south/south-create/south-create.component';
+import { EastEditComponent } from '../east/east-edit/east-edit.component';
+import { WestEditComponent } from '../west/west-edit/west-edit.component';
+import { SouthEditComponent } from '../south/south-edit/south-edit.component';
+import { NorthEditComponent } from '../north/north-edit/north-edit.component';
+import { LoginComponent } from '../login/login.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +40,16 @@ import { TestingComponent } from '../testing.component';
     WestListComponent,
     HomeComponent,
     MenuComponent,
-    TestingComponent
+    TestingComponent,
+    NorthCreateComponent,
+    WestCreateComponent,
+    EastCreateComponent,
+    SouthCreateComponent,
+    EastEditComponent,
+    WestEditComponent,
+    SouthEditComponent,
+    NorthEditComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
