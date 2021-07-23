@@ -27,6 +27,7 @@ import { SouthEditComponent } from '../south/south-edit/south-edit.component';
 import { NorthEditComponent } from '../north/north-edit/north-edit.component';
 import { LoginComponent } from '../login/login.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,7 +50,8 @@ import { LoginComponent } from '../login/login.component';
     WestEditComponent,
     SouthEditComponent,
     NorthEditComponent,
-    LoginComponent
+    LoginComponent,
+    
   ],
   imports: [
     BrowserModule,
