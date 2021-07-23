@@ -52,13 +52,15 @@ import { LoginComponent } from '../login/login.component';
     NorthEditComponent,
     LoginComponent,
     
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
