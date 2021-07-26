@@ -27,3 +27,16 @@ a:hover {
 .example-container{
     background-color: transparent;
 }
+.mat-sidenav {
+    width: 10%;
+    height: 40%;
+    background-color: black;
+    opacity: 60%;
+}
+.mat-drawer-backdrop.mat-drawer-shown{
+    background-color: transparent;
+}
+.options{
+background-color: white;
+opacity: 100%;
+}

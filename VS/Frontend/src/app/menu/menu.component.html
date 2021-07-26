@@ -5,10 +5,11 @@
             <button mat-raised-button color="primary">Menu</button>
         </div>
     </mat-sidenav-content>
-    <mat-sidenav #sidenav mode="over" class="sidenav" position="end" [fixedInViewport]="true">
-        <div fxLayout="column" fxLayoutAlign="center center">
-            <div *ngFor="let menu of menus">
+    <mat-sidenav #sidenav mode="over" class="sidenav" position="first" [fixedInViewport]="true">
+        <div fxLayout="column" fxLayoutAlign="space-evenly center">
+            <div *ngFor="let menu of menus" class="options">
                 <a routerLink="{{menu.route}}">{{menu.display}}</a>
+                <p> </p>
             </div>
         </div>
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MatSidenavModule } from '@angular/material/sidenav';
+import { MaterialModule } from './MISC/materialsmod';
 
 @Component({
   selector: 'testing',
@@ -9,7 +9,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 export class TestingComponent implements OnInit {
 
   constructor(
-    private sidenav: MatSidenavModule
+    private matsvc: MaterialModule
   ) { }
 
   ngOnInit(): void {
