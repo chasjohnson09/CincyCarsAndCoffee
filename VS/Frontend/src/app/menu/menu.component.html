@@ -1,7 +1,18 @@
-<nav>
-    <ul>
-        <li *ngFor="let menu of menus">
-            <a routerLink="{{menu.route}}">{{menu.display}}</a>
-        </li>
-    </ul>
-</nav>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav-content>
+
+        <div (click)="sidenav.toggle()">
+            <button mat-raised-button color="primary">Menu</button>
+        </div>
+    </mat-sidenav-content>
+    <mat-sidenav #sidenav mode="over" class="sidenav" position="end" [fixedInViewport]="true">
+        <div fxLayout="column" fxLayoutAlign="center center">
+            <div *ngFor="let menu of menus">
+                <a routerLink="{{menu.route}}">{{menu.display}}</a>
+            </div>
+        </div>
+
+    </mat-sidenav>
+
+
+</mat-sidenav-container>

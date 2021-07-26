@@ -1,4 +1,4 @@
-nav {
+/* nav {
     background-color: white;
     position: relative;
     margin-right: 10%;
@@ -22,4 +22,8 @@ a {
 a:hover {
     color: black;
     background-color: white;
+} */
+
+.example-container{
+    background-color: transparent;
 }

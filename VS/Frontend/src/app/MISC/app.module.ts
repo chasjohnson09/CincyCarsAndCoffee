@@ -26,6 +26,7 @@ import { WestEditComponent } from '../west/west-edit/west-edit.component';
 import { SouthEditComponent } from '../south/south-edit/south-edit.component';
 import { NorthEditComponent } from '../north/north-edit/north-edit.component';
 import { LoginComponent } from '../login/login.component';
+import { MaterialModule } from './materialsmod';
 
 
 @NgModule({
@@ -60,6 +61,9 @@ import { LoginComponent } from '../login/login.component';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
+    MaterialModule
+    
+
     
   ],
   providers: [],
