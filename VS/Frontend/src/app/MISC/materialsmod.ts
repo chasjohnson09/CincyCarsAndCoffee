@@ -1,6 +1,6 @@
 import { Component, NgModule } from "@angular/core";
-import { MatSidenavModule } from'@angular/material/sidenav';
-import { MatButtonModule } from'@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
 
@@ -16,7 +16,10 @@ import { MatCardModule } from '@angular/material/card';
     exports: [
         MatSidenavModule,
         MatButtonModule,
-        FlexLayoutModule
+        FlexLayoutModule,
+        MatCardModule
     ]
 })
-export class MaterialModule {}
+export class MaterialModule {
+    constructor() { }
+}

@@ -52,6 +52,7 @@ import { MaterialModule } from './materialsmod';
     SouthEditComponent,
     NorthEditComponent,
     LoginComponent,
+    MaterialModule
     
     
   ],
