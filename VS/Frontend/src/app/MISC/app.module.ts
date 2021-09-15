@@ -27,6 +27,7 @@ import { SouthEditComponent } from '../south/south-edit/south-edit.component';
 import { NorthEditComponent } from '../north/north-edit/north-edit.component';
 import { LoginComponent } from '../login/login.component';
 import { MaterialModule } from './materialsmod';
+import { MaterialsmodComponent } from './materialsmod/materialsmod.component';
 
 
 @NgModule({
@@ -52,7 +53,7 @@ import { MaterialModule } from './materialsmod';
     SouthEditComponent,
     NorthEditComponent,
     LoginComponent,
-    MaterialModule
+    MaterialsmodComponent
     
     
   ],
@@ -67,6 +68,10 @@ import { MaterialModule } from './materialsmod';
 
     
   ],
+  exports: [
+    MaterialModule
+  ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })

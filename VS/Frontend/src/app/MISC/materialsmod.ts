@@ -1,4 +1,4 @@
-import { Component, NgModule } from "@angular/core";
+import { NgModule } from "@angular/core";
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -11,7 +11,7 @@ import { MatCardModule } from '@angular/material/card';
         MatButtonModule,
         FlexLayoutModule,
         MatCardModule,
-        Component
+        
     ],
     exports: [
         MatSidenavModule,
@@ -21,5 +21,5 @@ import { MatCardModule } from '@angular/material/card';
     ]
 })
 export class MaterialModule {
-    constructor() { }
+    
 }

@@ -30,8 +30,8 @@ a:hover {
 .mat-sidenav {
     width: 10%;
     height: 40%;
-    background-color: black;
-    opacity: 60%;
+    background-color: red;
+    opacity: 100%;
 }
 .mat-drawer-backdrop.mat-drawer-shown{
     background-color: transparent;
