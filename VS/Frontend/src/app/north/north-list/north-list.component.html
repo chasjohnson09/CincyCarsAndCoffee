@@ -1,10 +1,14 @@
 <main-menu></main-menu>
-<div>
+<mat-card>
+    <div>
     <span>
         <h3>North Side Cars and Coffees</h3>
     </span>
 </div>
-<table>
+</mat-card>
+<mat-divider></mat-divider>
+<mat-card>
+    <table>
     <tr>
         <th>Id</th>
         <th>Name</th>
@@ -21,8 +25,10 @@
         <a routerLink="/north/detail/{{north.id}}">Details</a>
     </tr>
 </table>
-
-<body>
+</mat-card>
+<mat-divider></mat-divider>
+<mat-card>
+    <body>
     <span *ngFor="let north of norths">
         <p>{{north.id}}</p>
         <p>{{north.name}}</p>
@@ -34,4 +40,6 @@
     </span>
 
 </body>
+</mat-card>
+
 
