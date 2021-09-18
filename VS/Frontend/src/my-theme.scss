@@ -1,6 +1,11 @@
 @import '~@angular/material/theming';
-@import "~@angular/material/prebuilt-themes/deeppurple-amber.css"; 
+@import "~@angular/material/prebuilt-themes/purple-green.css"; 
 
 @include mat-core();
 
-$my-theme-primary: mat-palette($mat-indigo);
+$my-theme-primary: mat-palette($mat-green);
+$my-theme-accent: mat-palette($mat-orange);
+$my-theme-warn: mat-palette($mat-purple);
+
+$my-theme: mat-light-theme($my-theme-primary, $my-theme-accent,$my-theme-warn);
+

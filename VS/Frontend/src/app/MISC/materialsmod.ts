@@ -4,6 +4,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
 
+
 @NgModule({
     imports: [
 
@@ -11,13 +12,15 @@ import { MatCardModule } from '@angular/material/card';
         MatButtonModule,
         FlexLayoutModule,
         MatCardModule,
+       
         
     ],
     exports: [
         MatSidenavModule,
         MatButtonModule,
         FlexLayoutModule,
-        MatCardModule
+        MatCardModule,
+        
     ]
 })
 export class MaterialModule {
