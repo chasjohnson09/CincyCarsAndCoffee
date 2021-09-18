@@ -131,3 +131,4 @@ C:\Newrepo\CincyCarsAndCoffee\Cincy_Cars\Cincy_Cars\bin\Debug\netcoreapp3.1\runt
 C:\Newrepo\CincyCarsAndCoffee\Cincy_Cars\Cincy_Cars\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Newrepo\CincyCarsAndCoffee\Cincy_Cars\Cincy_Cars\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Newrepo\CincyCarsAndCoffee\Cincy_Cars\Cincy_Cars\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Newrepo\CincyCarsAndCoffee\Cincy_Cars\Cincy_Cars\obj\Debug\netcoreapp3.1\Cincy_Cars.GeneratedMSBuildEditorConfig.editorconfig
