@@ -10,4 +10,14 @@ background-color:  transparent;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     align-items: center;
+    margin: 25%;
+}
+.script {
+    position: static;
+    align-items: center;
+    
+}
+
+video {
+    align-items: center;
 }

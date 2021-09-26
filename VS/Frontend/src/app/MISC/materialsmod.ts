@@ -4,6 +4,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -13,7 +14,11 @@ import {MatDividerModule} from '@angular/material/divider';
         MatButtonModule,
         FlexLayoutModule,
         MatCardModule,
-        MatDividerModule
+        MatDividerModule,
+        MatToolbarModule,
+        MatButtonModule,
+
+
        
         
     ],
@@ -22,7 +27,9 @@ import {MatDividerModule} from '@angular/material/divider';
         MatButtonModule,
         FlexLayoutModule,
         MatCardModule,
-        MatDividerModule
+        MatDividerModule,
+        MatToolbarModule,
+        MatButtonModule
         
     ]
 })
