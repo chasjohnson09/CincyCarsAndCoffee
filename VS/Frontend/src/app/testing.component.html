@@ -1,29 +1,48 @@
 <main-menu></main-menu>
 
 <mat-card>
-    <mat-card-title>Welcome to Cincy Cars And Coffee</mat-card-title>
+  <mat-card-title>Welcome to Cincy Cars And Coffee</mat-card-title>
 </mat-card>
 
 <mat-toolbar>
-    <span>My Application</span>
-  </mat-toolbar>
+  <span>My Application</span>
+</mat-toolbar>
 
-  <iframe width="1424" height="810" src="https://www.youtube.com/embed/9CY0V0JAgNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="700" src="https://www.youtube.com/embed/9CY0V0JAgNU" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
 
-  <h1>My First Google Map</h1>
+<h1>My First Google Map</h1>
 
 <div id="googleMap" style="width:100%;height:400px;"></div>
 
 <script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
+  function myMap() {
+    var mapProp = {
+      center: new google.maps.LatLng(51.508742, -0.120850),
+      zoom: 5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+  }
 </script>
 
 <script class="video" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
+<iframe
+  width="600"
+  height="450"
+  style="border:0"
+  loading="clean"
+  allowfullscreen
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBzeDSTtYZMhn1A0TNus7nVBVYz0nLkAvo
+    &q=LAX+Airport, Las Angeles, CA">
+</iframe>
 
+<iframe
+  width="600"
+  height="450"
+  style="border:0"
+  loading="clean"
+  allowfullscreen
+  src="{{googmaps}}{{address}}">
+</iframe>

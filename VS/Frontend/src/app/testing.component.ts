@@ -8,8 +8,12 @@ import { MaterialModule } from './MISC/materialsmod';
 })
 export class TestingComponent implements OnInit {
 
+  public googmaps = "https://www.google.com/maps/embed/v1/place?key=AIzaSyBzeDSTtYZMhn1A0TNus7nVBVYz0nLkAvo&q=";
+  public address = "Big Sky Resort, Big Sky, MT"
+
   constructor(
-    private matsvc: MaterialModule
+    private matsvc: MaterialModule,
+    
   ) { }
 
   ngOnInit(): void {
